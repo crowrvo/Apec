@@ -43,7 +43,7 @@ public class GUIModifier extends Component {
 
     final List<RenderGameOverlayEvent.ElementType> EventsToCancel = new ArrayList<RenderGameOverlayEvent.ElementType>() {{
         add(FOOD);
-        //add(HEALTH);
+        //add(HEALTH); //Force Action to build
         add(ARMOR);
         add(AIR);
         add(EXPERIENCE);
